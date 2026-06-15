@@ -1,4 +1,12 @@
+# Terraform local files
 .terraform/
+
+# State files (VERY IMPORTANT)
 *.tfstate
 *.tfstate.*
+
+# Crash logs
 crash.log
+
+# Terraform lock file (optional to ignore in small projects)
+.terraform.lock.hcl
